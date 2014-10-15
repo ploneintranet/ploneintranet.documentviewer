@@ -16,7 +16,7 @@ long_description = (
 
 setup(name='ploneintranet.documentviewer',
       version=version,
-      description="Plone Intranet document preview framework"
+      description="Plone Intranet document preview framework",
       long_description=long_description,
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
