@@ -49,6 +49,9 @@ setup(name='ploneintranet.documentviewer',
           'develop': [
               'Sphinx',
               'zest.releaser',
+          ],
+          'async': [
+              'collective.zamqp'
           ]
       },
       entry_points="""
