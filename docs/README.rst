@@ -15,3 +15,19 @@ As a default the mimetype icon will be served.
 If the document mimetype is a known one,
 a proper preview of the document will be generated.
 
+Provide thumbnails for documents
+--------------------------------
+
+Testing buildout
+----------------
+
+The package comes with a testing buildout.
+You can launch it like this::
+
+   git clone git@github.com:ploneintranet/ploneintranet.documentviewer.git
+   cd ploneintranet.documentviewer
+   virtualenv-2.7 --no-site-packages -p `which python` .
+   . bin/activate
+   ./bin/python2.7 bootstrap.py -v 1.6.3
+   ./bin/buildout
+
