@@ -41,6 +41,7 @@ setup(name='ploneintranet.documentviewer',
       install_requires=[
           'setuptools',
           'plone.api',
+          'ploneintranet.docconv.client',
       ],
       extras_require={
           'test': [
