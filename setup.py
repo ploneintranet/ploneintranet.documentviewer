@@ -46,6 +46,7 @@ setup(name='ploneintranet.documentviewer',
       extras_require={
           'test': [
               'plone.app.testing',
+              'plone.app.contenttypes[test]',
           ],
           'develop': [
               'Sphinx',
