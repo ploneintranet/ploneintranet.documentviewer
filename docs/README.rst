@@ -1,10 +1,27 @@
 Plone Intranet Documentviewer
 =============================
 
+
+Build status
+------------
+
+Unit tests
+~~~~~~~~~~
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Documentviewer
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Documentviewer/
+
 .. image:: https://travis-ci.org/ploneintranet/ploneintranet.documentviewer.svg?branch=master
     :target: https://travis-ci.org/ploneintranet/ploneintranet.documentviewer
 .. image:: https://coveralls.io/repos/ploneintranet/ploneintranet.documentviewer/badge.png?branch=master
   :target: https://coveralls.io/r/ploneintranet/ploneintranet.documentviewer?branch=master
+
+Robot tests for Plone Intranet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
+
 
 This package provides the following:
 
